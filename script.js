@@ -9,13 +9,14 @@ Infine scrivi sulla pagina nomecognomecolorepreferito23 */
 
 
 
-const yourName = parseInt(prompt('Inserisci il tuo nome: '));
-const lastName = parseInt(prompt('Inserisci il tuo cognome: '));
-const color = parseInt(prompt('Inserisci il tuo colore preferito: '));
+const yourName = prompt('Inserisci il tuo nome: ');
+const lastName = prompt('Inserisci il tuo cognome: ');
+const color = prompt('Inserisci il tuo colore preferito: ');
+
+const number = prompt('Inserisci il tuo numero preferito: ');
 
 
+const password = yourName + lastName + color + number + '23';
 
-const password = '23';
-
-
+console.log(password);
 document.getElementById('result').innerHTML = password; 
